@@ -1,0 +1,16 @@
+.App {
+  width: 200vw;
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+  overflow: hidden;
+}
+
+body{
+  overflow: hidden;
+  background: #abbaab;
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+  background: linear-gradient(to right, #ffffff, #abbaab);
+}

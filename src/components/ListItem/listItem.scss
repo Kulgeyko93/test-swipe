@@ -1,0 +1,41 @@
+.item {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: justify;
+  margin: 1rem;
+  width: 90%;
+  padding: 0 20px;
+
+  -webkit-animation-name: item;
+  animation-name: item;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes item {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+  }
+  @keyframes item {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
